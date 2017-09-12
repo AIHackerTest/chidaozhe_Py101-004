@@ -1,0 +1,8 @@
+{% extends 'home.html' %}
+{% block history %}
+<p style="text-align:center">
+{% for weather in history%}
+{{weather}}<br/>
+{% endfor %}
+</p>
+{% endblock %}
